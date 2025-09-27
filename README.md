@@ -82,5 +82,5 @@ Our best-performing model: **Spatial Logistic Regression with L1 regularization*
 
 ---
 
-✨ This project combines **feature engineering, spatial processing, and machine learning** into a robust framework for rainfall monitoring.  
+This project combines **feature engineering, spatial processing, and machine learning** into a robust framework for rainfall monitoring.  
 It offers a promising foundation for **environmental forecasting applications**, especially where real-time, area-wide rainfall detection is required.  
