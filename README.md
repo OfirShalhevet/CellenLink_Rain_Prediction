@@ -1,4 +1,4 @@
-## 📌 Introduction
+##  Introduction
 This project explores environmental sensing with a focus on **rain detection in urban environments** using an alternative to traditional rain gauges.  
 We apply **opportunistic sensing** – leveraging existing cellular infrastructure as a cost-effective, real-time monitoring system.  
 
@@ -7,7 +7,7 @@ By monitoring this attenuation, we treat CMLs as **virtual rain sensors**.
 
 ---
 
-## 🌍 Motivation
+##  Motivation
 Traditional rainfall monitoring tools (gauges, radars) face challenges:
 - Limited spatial coverage  
 - High deployment and maintenance cost  
@@ -20,14 +20,14 @@ CMLs offer key advantages:
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 - **Detect rainfall** from microwave link attenuation  
 - **Classify rainfall intensity** into categories (no rain, light, moderate, heavy)  
 - **Aggregate multiple links** to improve spatial accuracy across several kilometers  
 
 ---
 
-## 🛠 Methodology
+##  Methodology
 - **Data:** CML attenuation and rain gauge data from Sweden  
 - **Feature Engineering:**  
   - Attenuation change rate  
@@ -44,7 +44,7 @@ CMLs offer key advantages:
 
 ---
 
-## 🤖 Final Model
+## Final Model
 Our best-performing model: **Spatial Logistic Regression with L1 regularization**  
 - Aggregates predictions across multiple links → robust against local noise  
 - Covers rainfall across **kilometers**, unlike gauges that only measure at a single point  
@@ -65,7 +65,7 @@ Our best-performing model: **Spatial Logistic Regression with L1 regularization*
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 - Enhance feature engineering for spatial models  
 - Add binary correction mechanism for light rain detection  
 - Incorporate link direction, length, and multi-gauge data  
